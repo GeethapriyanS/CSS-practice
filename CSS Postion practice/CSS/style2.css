@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+html{
+     scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+}
+body{
+    font-size:2rem ;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+header{
+   text-align: center;
+   color: white;
+   padding: 20px;
+   position: sticky;
+   top: 0;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  position: sticky;
+  bottom:0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: auto 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.butt1{
+    font-size: inherit;
+    background-color: lightgreen;
+    padding: 10px;
+    position: fixed;
+    top: 30%;
+    left: 10px;
+    z-index: 1;
+}
+.butt2{
+    font-size: inherit;
+    position: fixed;
+    padding: 10px;
+    background-color: lightgray;
+    top: 40%;
+    left:10px;
+    z-index: 1;
+}

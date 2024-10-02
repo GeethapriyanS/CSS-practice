@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body{
+    font-size: 24px;
+}
+.block{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+section{
+    background-color: bisque;
+    padding: 10px;
+    display: flow-root;
+}
+.float1{
+    float: left;
+    margin-right: 15px;
+}
+.float2{
+    float: right;
+    margin-left: 15px;
+}
