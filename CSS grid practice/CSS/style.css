@@ -71,3 +71,23 @@ body {
   grid-row: 3 / 4;
 }
 
+
+
+/* CSS GRID
+grid-auto-flow:col,row;
+1.grid-template-columns
+   repeat(1,2fr 1fr);
+2.grid-auto-rows:200px or minmax(150px,auto);
+3.gap:1em 2em;
+      row columns
+4.grid-column-start:1;
+5.grid-column-end:4;
+  4+5:grid-column:1/4;
+6.grid-row-start:1;
+7.grid-row-end:4;
+  6+7:grid-row:1/4
+8.align-content:center;
+9.justify-content:center;
+  8+9:place-content:center;
+10:grid-template-areas:"mm mm mm mm","ss ss ss ss";
+11.grid-area:mm; */
